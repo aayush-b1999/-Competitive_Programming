@@ -87,6 +87,9 @@ int main() {
 		cin >> a >> b;
 		if (b < a)swap(a, b);
 		int val = (b + 1) / 2;
+		if(1){
+			int y=10;
+		}
 		if (val > a) {
 			cout << b*b << endl;
 		}
